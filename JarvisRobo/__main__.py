@@ -400,7 +400,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", callback_data="Jarvis_support"),
+                        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", callback_data="punjabiii_chat"),
                         InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"),
                     ],
                     [
@@ -424,7 +424,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
                             text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/JARVIS_V_SUPPORT"
+                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/unknown_bande"
                         ),
                     ],
                     [
@@ -432,7 +432,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
                             text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/doraemon890",
+                            text="ɢɪᴛʜᴜʙ", url="https://github.com/jassbots/doraemon890",
                         ),
                     ],
                     [
@@ -633,7 +633,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
              [
-                 InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://github.com/doraemon890/JARVIS-ROBO")
+                 InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://github.com/jassbots/JARVIS-X-ROBO")
              ],
                  [InlineKeyboardButton(text="๏ ʙᴀᴄᴋ ๏", callback_data="source_back")]
                 ]
