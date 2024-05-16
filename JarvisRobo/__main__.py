@@ -224,14 +224,14 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgEAAx0Cfbdm0QACATNmC-1-nl8Unb8cLRS-8qfLllewvwACPwMAAtKbsEQsyzfIkYLVGx4E"
+                "CAACAgUAAxkBAAID5GZFj_AGbEh7xomYm_QUGzbpysQQAAL1CQACDAyIVV3qRVSKTypFNQQ"
             )
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(1.25)
-            lol.edit_text("💻")
+            lol.edit_text("🪄")
             time.sleep(1.0)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
             time.sleep(0.5)
@@ -432,7 +432,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
                             text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/jassbots/doraemon890",
+                            text="ɢɪᴛʜᴜʙ", url="https://github.com/jassbots/JARVIS-X-ROBO",
                         ),
                     ],
                     [
